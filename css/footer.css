@@ -1,0 +1,9 @@
+#footer{
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+}
+#address{
+	line-height: 30px;
+	text-align: center;
+}
