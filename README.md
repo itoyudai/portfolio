@@ -5,7 +5,7 @@ portfolio
 
 ## ファイル構成
 - README.md
-  - このファイルです。
+ - このファイルです。
 - index.html
   - 
 
