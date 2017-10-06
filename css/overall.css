@@ -2,9 +2,9 @@
 	position: relative;
 	width: 100%;
 	height: 100vh;
-//	overflow: hidden;
+	overflow-x: hidden;
 }
-#ttl_wrap{
+#title_wrap{
 	position: absolute;
 	display: none;
 	z-index: 100;
@@ -23,25 +23,21 @@
 	height: 30px;
 }
 #main{
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
+	display: flex;
+	width: 300vw;
 	height: 100%;
+	transform: translateX(0px);
 }
 #profile_wrap{
 	background-color: aqua;
 }
 #content_wrap{
-	left: 100%;
 	background-color: aquamarine;
 }
 #contact_wrap{
-	left: 200%;
 	background-color: antiquewhite;
 }
 .scroll{
-	position: absolute;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 }
